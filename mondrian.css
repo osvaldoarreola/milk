@@ -94,3 +94,27 @@ body {
 }
   .bat {content: url("images/flag.jpg");}
 }
+@media only screen and (max-width: 690px) {
+	body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+}
+.wide-col {
+		width: 50%;
+		height: 100%;
+  }
+ .narrow-col {
+		width: 70%;
+		height: 100%;
+		display:flex;
+  }
+  .box {
+	width: 100%;
+	height: 100%;
+}
+  .box1 {
+	width: 100%;
+	height: 100%;
+	background-color:white;
