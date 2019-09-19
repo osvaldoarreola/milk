@@ -1,0 +1,96 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	background-color: #0D11A8;
+}
+.bat {content: url("images/bat.jpg");}
+
+.wide-col {
+	height: 100%;
+	width: 65%;
+	display: flex;
+	background-color:green;
+}
+
+.narrow-col {
+	display: block;
+	height: 100%;
+	width: 35%;
+}
+
+.box1 {
+	height: 50%;
+	width: 100%;
+	background-color: black;
+}
+.box {
+	height: 50%;
+	width: 100%;
+	display: block;
+	background-color: red;
+}
+
+.restric-img-size {
+	max-height: 70%; 
+	max-width: 70%;
+}
+.center-context {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media only screen and (max-width: 850px) {
+	body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+ .wide-col {
+		width: 100%;
+		height: 60%;
+  }
+ .narrow-col {
+		width: 100%;
+		height: 40%;
+		display:flex;
+  }
+  .box {
+	width: 50%;
+	height: 100%;
+}
+  .box1 {
+	width: 50%;
+	height: 100%;
+	background-color: brown;
+}
+}
+@media only screen and (max-width: 790px) {
+	body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+ .wide-col {
+		width: 100%;
+		height: 60%;
+  }
+ .narrow-col {
+		width: 100%;
+		height: 40%;
+		display:block;
+  }
+  .box {
+	width: 100%;
+	height: 70%;
+}
+  .box1 {
+	width: 100%;
+	height: 70%;
+	background-color:white;
+}
+  .bat {content: url("images/flag.jpg");}
+}
