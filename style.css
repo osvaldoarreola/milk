@@ -14,7 +14,7 @@ body {
 
 p {
   font-family: 'Nanum Pen Script', cursive, sans-serif;
-  font-size: 20px;
+  font-size: 27px;
   text-align: center;
   color: black;
   padding: 20px;
@@ -91,6 +91,9 @@ p {
 	width: 100%;
 	height: 100%;
 	background-color: #DB863C;
+}
+p {
+  font-size: 20px;
 }
 	.bat1 {content: url("images/mompaint.png");}
 	.bat2 {content: url("images/butterpaint.png");}
