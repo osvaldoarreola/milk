@@ -6,7 +6,7 @@ body {
 	display: block;
 	background-color: blue;
 }
-
+/* When writing CSS classes U WANT TO DEFINE ITEMS THIS IMAGES GETTING DEFINED THAT WILL BE SWITCHED LATER */
 .bat1 {content: url("images/babyarm.png");}
 .bat2 {content: url("images/momwall.png");}
 .bat3 {content: url("images/flower.png");}
@@ -55,7 +55,7 @@ p {
 	border-style: solid;
 	border-width: 2px;
 }
-
+/* KEEPS IMAGES IN CHECK WITH SIZING SO THAT THEY CAN BE FIXED TO CODERS LIKING FOR VIEWRS LIKING :) */
 .restric-img-size {
 	max-height: 85%; 
 	max-width: 85%;
@@ -100,6 +100,7 @@ p {
 	.bat3 {content: url("images/textheart.png");}
 	.bat4 {content: url("images/textwall.png");}
 }
+/* When THE SCREEN HITS A CERTAIN BREAK POINT THAN ITLL CUT THE DIV DEFINED AS BOX3 OUT AND CHANGE THE LAYOPUT ONLY LAEVIN BOX 1 AND 2 */
 
 @media only screen and (max-width: 575px) {
 div.box3 {
